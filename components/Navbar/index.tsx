@@ -1,6 +1,6 @@
 import { ActiveLink } from '../ActiveLink'
+import { menuItems } from '../helpers/menuItems'
 import styles from './styles.module.css'
-import { menuItems } from '../helpers/menuItems.js'
 
 
 export const Navbar = () => {

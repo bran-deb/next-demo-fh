@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { FC } from 'react'
 import { DarkLayout } from '../../components/layouts/DarkLayout'
 import { MainLayout } from '../../components/layouts/MainLayout'
 
@@ -20,7 +21,7 @@ export default function AboutPage() {
 }
 
 
-AboutPage.getLayout = function getLayout(page) {
+AboutPage.getLayout = function getLayout(page:FC) {
     //contiene los layouts que contienen la pagina
     return (
         <MainLayout>
