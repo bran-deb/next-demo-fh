@@ -21,7 +21,7 @@ export default function AboutPage() {
 }
 
 
-AboutPage.getLayout = function getLayout(page:FC) {
+AboutPage.getLayout = function getLayout(page:JSX.Element) {
     //contiene los layouts que contienen la pagina
     return (
         <MainLayout>
