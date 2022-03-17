@@ -2,6 +2,7 @@
 
 # docker
 Dockerfile
+DockerfileManual
 .dockerignore
 
 # dependencies
